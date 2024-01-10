@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'recoletasemibold';
+    src: url('../fonts/recoleta-semibold-webfont.eot');
+    src: url('../fonts/recoleta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recoleta-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/recoleta-semibold-webfont.woff') format('woff'),
+    url('../fonts/recoleta-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/notosans-regular-webfont.woff') format('woff'),
+    url('../fonts/notosans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgba(22, 58, 36, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wrapper{
+    max-width: 1180px; margin: auto;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.container nav{
+    padding: 16px 0;
+}
+header nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+header nav li{
+    margin-left: 24px;
+}
+header nav li a {
+    color: #FBFAF7;
+    text-align: right;
+    font: 16px/27px 'noto_sansregular';
+    text-decoration: none;
+}
+header nav li:last-of-type a {
+    background-color: #198C36;
+    border-radius: 160px;
+    padding: 15px 25px;
+}
+.main{
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: rgba(22, 58, 36, 1) url("../images/main.svg")  right 85px bottom no-repeat;
+}
+.main h1{
+    color: #FBFAF7;
+    font: 48px/65.25px 'recoletasemibold';
+    margin-bottom: 18px;
+}
+.main p{
+    color: #FBFAF7;
+    font: 16px/27px 'noto_sansregular';
+    margin-bottom: 90px;
+}
+
