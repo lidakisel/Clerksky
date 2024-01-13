@@ -72,4 +72,59 @@ header nav li:last-of-type a {
     font: 16px/27px 'noto_sansregular';
     margin-bottom: 90px;
 }
-
+.partners {
+    padding-top: 113px;
+    padding-bottom: 120px;
+}
+.partners h2 {
+    text-align: center;
+    color: #163A24;
+    font: 48px/54px 'recoletasemibold';
+    margin-bottom: 66px;
+}
+.partners a {
+    margin-right: 86px;
+}
+.link_images{
+    display: flex;
+    justify-content: center;
+}
+.production{
+    background: #163A24;
+    padding-top: 66px;
+    padding-bottom: 120px;
+}
+.production h2 {
+    text-align: center;
+    color: #FBFAF7;
+    font: 48px/54px 'recoletasemibold';
+    margin-bottom: 74px;
+}
+.production_card{
+    display: flex;
+    justify-content: space-between;
+    text-align: center
+}
+.production article img{
+    margin-bottom: 28px;
+}
+.production article p{
+    color: #FBFAF7;
+    font: 18px/27px 'noto_sansregular';
+}
+.employees{
+    padding-top: 114px;
+    padding-bottom: 135px;
+    background: #F2EFE6;
+}
+.employees h2{
+    color: #163A24;
+    text-align: center;
+    font: 48px/54px 'recoletasemibold';
+    margin-bottom: 27px;
+}
+.employees p{
+    color: #163A24;
+    text-align: center;
+    font: 18px/27px 'noto_sansregular';
+}
