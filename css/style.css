@@ -208,6 +208,7 @@ header nav li:last-of-type a {
     margin-bottom: 15px;
     font: 18px/27px 'noto_sansregular';
     color: #163A24;
+    margin-left: 25px;
 }
 .instructions{
     background: #F2EFE6;
@@ -229,10 +230,19 @@ header nav li:last-of-type a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 61px;
+    gap: 139px;
 }
-.steps .cost{
-    margin-left: 50px;
+.steps article p{
+    color: #163A24;
+    font: 18px/27px 'noto_sansregular';
+    margin-bottom: 13px;
 }
+.steps article span{
+    color: #163A24;
+    font: 28px/32px 'recoletasemibold';
+}
+
 .instructions li a{
     border-radius: 160px;
     background: #198C36;
@@ -240,6 +250,43 @@ header nav li:last-of-type a {
     text-decoration: none;
     font: 16px/27px 'noto_sansregular';
     color: #FBFAF7;
+}
+.min{
+    position: relative;
+}
+.min:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/arrow01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 36px;
+    position: absolute;
+    left: 284px; top: 33px;
+}
+.hour{
+    position: relative;
+}
+.hour:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/arrow02.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 36px;
+    position: absolute;
+    left: 284px; top: 33px;
+}
+.cost{
+    background-image: url("../images/loso.svg");
+    width: 290px;
+    height: 183px;
+    box-sizing: border-box;
+    background-size: contain;
+    padding-top: 42px;
+    margin-left: 53px;
 }
 .book{
     padding-top: 120px;
@@ -272,6 +319,7 @@ header nav li:last-of-type a {
 .get_started{
     background-color: #163A24;
     padding-top: 20px;
+    position: relative;
 }
 .get_started .block h2{
     color: #FBFAF7;
@@ -295,11 +343,27 @@ header nav li:last-of-type a {
     text-align: center;
     padding-top: 114px;
     padding-bottom: 139px;
-    position: absolute;
-    left: 0; right: 0;
+
 }
-.background_image{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.get_started:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/plants01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 0px;bottom: 0px;
+}
+.get_started:after{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/plants02.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0px;bottom: 0px;
 }
