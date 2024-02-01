@@ -108,6 +108,11 @@ header nav li:last-of-type a {
 .production article img{
     margin-bottom: 28px;
 }
+.owl-carousel .owl-item img{
+    max-width: 245px;
+    width: auto;
+    display: inline-block;
+}
 .production article p{
     color: #FBFAF7;
     font: 18px/27px 'noto_sansregular';
