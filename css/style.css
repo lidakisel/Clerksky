@@ -34,6 +34,7 @@ header{
 .container{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .container nav{
     padding: 16px 0;
@@ -132,6 +133,12 @@ header nav li:last-of-type a {
     color: #163A24;
     text-align: center;
     font: 18px/27px 'noto_sansregular';
+}
+.people{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: end;
 }
 .about{
     padding-top: 120px;
@@ -247,7 +254,9 @@ header nav li:last-of-type a {
     color: #163A24;
     font: 28px/32px 'recoletasemibold';
 }
-
+.instructions li {
+    list-style-type: none;
+}
 .instructions li a{
     border-radius: 160px;
     background: #198C36;
