@@ -1,13 +1,19 @@
 @media screen and (max-width: 510px){
 
     header nav li {
-        margin-left: 16px;
+        margin-left: 0px;
     }
     header nav li a {
-        font: 10px/27px 'noto_sansregular';
+        font: 16px/27px 'noto_sansregular';
+        color: #163A24;
     }
     header nav li:last-of-type a {
-        padding: 9px 19px;
+        border-radius: 0;
+        padding: 0;
+        background-color: unset;
+    }
+    .container nav {
+        padding: 0;
     }
     .container {
         padding: 0px 20px;

@@ -23,6 +23,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #163A24;
+}
+main{
+    background-color: white;
+}
 header{
     background-color: rgba(22, 58, 36, 1);
     padding-top: 20px;
@@ -380,4 +386,7 @@ header nav li:last-of-type a {
     height: 400px;
     position: absolute;
     right: 0px;bottom: 0px;
+}
+.cd-3d-nav-trigger{
+    display: none;
 }
