@@ -1,152 +1,150 @@
-@media screen and (max-width: 510px){
-
-    header nav li {
-        margin-left: 0px;
-    }
-    header nav li a {
-        font: 16px/27px 'noto_sansregular';
-        color: #163A24;
-    }
-    header nav li:last-of-type a {
-        border-radius: 0;
-        padding: 0;
-        background-color: unset;
-    }
-    .container nav {
-        padding: 0;
-    }
-    .container {
-        padding: 0px 20px;
-    }
-    .main {
-        background: #163A24;
-        padding: 120px 20px 40px;
-    }
-    .about{
-        padding: 120px 20px 0px;
-    }
-    .about .wrapper {
-        flex-wrap: wrap;
-        gap: 50px;
-    }
-    .about .wrapper:first-of-type{
-        margin-bottom: 50px;
-    }
-
-    .about img{
-        width: 388px;
-        height: 396px;
-    }
-    .about h2{
-        margin-bottom: 27px;
-    }
-    .partners{
-        padding: 113px 20px 120px;
-    }
-    .link_images{
-       flex-wrap: wrap;
-        align-items: center;
-        gap: 86px;
-    }
-    .partners a {
-        margin: auto;
-    }
-    .production {
-        padding: 66px 20px 120px;
-    }
-    .employees {
-        padding: 114px 20px 135px;
-    }
-    .people {
-        flex-wrap: wrap;
-    }
-
-    .info{
-        padding: 180px 20px 120px;
-    }
-    .info .wrapper {
-       flex-wrap: wrap;
-        gap: 50px;
-    }
-    .info h2{
-        margin-bottom: 27px;
-    }
-    .info img{
-        width: 388px;
-        height: 396px;
-    }
-    .interests{
-        padding: 0px 20px;
-    }
-    .cards_interests {
-        flex-wrap: wrap;
-    }
-    .instructions {
-        padding: 124px 20px 114px;
-    }
-    .instructions .steps {
-        flex-wrap: wrap;
-    }
-    .min:after {
-        content: "";
-        display: inline-block;
-        background-image: url(../images/arrow01.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 36px;
-        height: 75px;
-        position: absolute;
-        top: 130px;
-        left: 110px;
-    }
-    .hour:after {
-        content: "";
-        display: inline-block;
-        background-image: url(../images/arrow02.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 36px;
-        height: 75px;
-        position: absolute;
-        top: 130px;
-        left: 110px;
-    }
-    .cost {
-        margin-left: 0px;
-    }
-    .book {
-        padding: 120px 20px;
-    }
-    .book .wrapper {
-        flex-wrap: wrap;
-    }
-    .book img{
-        width: 388px;
-        height: 396px;
-    }
-    .get_started {
-        padding: 20px 20px 0px;
-    }
-    .get_started:before {
-        content: "";
-        display: inline-block;
-        background-image: none;
-        width: 300px;
-        height: 400px;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-    }
-    .get_started:after {
-        content: "";
-        display: inline-block;
-        background-image: none;
-        width: 300px;
-        height: 400px;
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-    }
-
+@media screen and (max-width: 510px) {
+  body header .container {
+    padding: 0px 20px;
+  }
+  body header .container .cd-3d-nav-container {
+    padding: 0px;
+  }
+  body header .container .cd-3d-nav-container ul li {
+    margin-left: 0px;
+  }
+  body header .container .cd-3d-nav-container ul li a {
+    color: #163A24;
+  }
+  body header .container .cd-3d-nav-container ul li a:last-of-type a {
+    border-radius: 0;
+    padding: 0;
+    background-color: unset;
+  }
+  main .main {
+    background: #163A24;
+    padding: 120px 20px 40px;
+  }
+  main .about {
+    padding: 120px 20px 0px;
+  }
+  main .about .wrapper {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  main .about .wrapper:first-of-type {
+    margin-bottom: 50px;
+  }
+  main .about .wrapper article img {
+    width: 388px;
+    height: 396px;
+  }
+  main .about .wrapper article h2 {
+    margin-bottom: 27px;
+  }
+  main .partners {
+    padding: 113px 20px 120px;
+  }
+  main .partners .wrapper .link_images {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 86px;
+  }
+  main .partners .wrapper .link_images a {
+    margin: auto;
+  }
+  main .production {
+    padding: 66px 20px 120px;
+  }
+  main .employees {
+    padding: 114px 20px 135px;
+  }
+  main .employees .wrapper .people {
+    flex-wrap: wrap;
+  }
+  main .info {
+    padding: 180px 20px 120px;
+  }
+  main .info .wrapper {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  main .info .wrapper article h2 {
+    margin-bottom: 27px;
+  }
+  main .info .wrapper article img {
+    width: 388px;
+    height: 396px;
+  }
+  main .interests {
+    padding: 0px 20px;
+  }
+  main .interests .wrapper .cards_interests {
+    flex-wrap: wrap;
+  }
+  main .instructions {
+    padding: 124px 20px 114px;
+  }
+  main .instructions .steps {
+    flex-wrap: wrap;
+  }
+  main .instructions .steps .min:after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 36px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    transform: rotate(90deg);
+  }
+  main .instructions .steps .hour:after {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/arrow02.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 36px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    transform: rotate(90deg);
+  }
+  main .instructions .steps .cost {
+    margin-left: 0px;
+  }
+  main .book {
+    padding: 120px 20px;
+  }
+  main .book .wrapper {
+    flex-wrap: wrap;
+  }
+  main .book .wrapper article img {
+    width: 388px;
+    height: 396px;
+  }
+  main .get_started {
+    padding: 20px 20px 0px;
+  }
+  main .get_started:before {
+    content: "";
+    display: inline-block;
+    background-image: none;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  main .get_started:after {
+    content: "";
+    display: inline-block;
+    background-image: none;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 
+/*# sourceMappingURL=media.css.map */
