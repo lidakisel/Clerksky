@@ -10,15 +10,13 @@
           ul {
             li {
               margin-left: 0px;
-
+              &:last-of-type a {
+                border-radius: 0;
+                padding: 0;
+                background-color: unset;
+              }
               a {
                 color: #163A24;
-
-                &:last-of-type a {
-                  border-radius: 0;
-                  padding: 0;
-                  background-color: unset;
-                }
               }
             }
           }
@@ -195,6 +193,27 @@
         right: 0px;
         bottom: 0px;
       }
+    }
+  }
+}
+footer{
+  .sign_up{
+    padding: 60px 20px;
+    .wrapper{
+      flex-wrap: wrap;
+      gap: 33px;
+    }
+  }
+  .foot_links {
+    padding: 40px 20px 24px;
+    .social {
+      flex-wrap: wrap;
+      gap: 33px;
+    }
+
+    .politics {
+      flex-wrap: wrap;
+      gap: 16px;
     }
   }
 }

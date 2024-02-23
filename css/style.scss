@@ -519,3 +519,125 @@ main {
     }
   }
 }
+footer {
+  .sign_up {
+    padding: 60px 0;
+    background-color: #F2EFE6;
+
+    .wrapper {
+      margin: auto;
+      max-width: 1180px;
+      display: flex;
+      justify-content: space-between;
+
+      article {
+        h2 {
+          font: 48px/112% $text_title;
+          color: #163a24;
+          margin-bottom: 26px;
+        }
+
+        p {
+          font: 18px/150% $text_descript;
+          color: #163a24;
+        }
+      }
+
+      article {
+        p {
+          font: 14px/150% $text_descript;
+          color: #163a24;
+        }
+
+        span {
+          color: #198c36;
+        }
+
+        form {
+          max-width: 590px;
+          height: 50px;
+          margin-bottom: 15px;
+          display: flex;
+          justify-content: space-between;
+          background-color: #FFFFFF;
+          border-radius: 255px;
+
+          input {
+            width: 60%;
+            background-color: transparent;
+            border: none;
+            padding-left: 20px;
+          }
+
+          button {
+            background-color: #15762E;
+            padding: 15px 25px;
+            font: 16px $text_descript;
+            color: #fbfaf7;
+            border-radius: 255px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  .foot_links {
+    padding: 40px 0 24px 0;
+    background-color: #FFFFFF;
+
+    .wrapper {
+      margin: auto;
+      max-width: 1180px;
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      h4 {
+        color: #163A24;
+        font: 24px/150% $text_title;
+        text-align: center
+      }
+
+      ul {
+        display: flex;
+
+        li {
+          margin-left: 14px;
+          list-style: none;
+        }
+      }
+    }
+
+    .politics {
+      border-top: 1px solid #f2efe6;
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font: 14px/150% $text_descript;
+        color: #163a24;
+      }
+
+      ul {
+        display: flex;
+
+        li {
+          list-style: none;
+          margin-left: 14px;
+
+          a {
+            font: 14px $text_descript;
+            text-align: right;
+            color: #198c36;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

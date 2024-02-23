@@ -436,4 +436,102 @@ main .get_started .block a {
   text-decoration: none;
 }
 
+footer .sign_up {
+  padding: 60px 0;
+  background-color: #F2EFE6;
+}
+footer .sign_up .wrapper {
+  margin: auto;
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .sign_up .wrapper article h2 {
+  font: 48px/112% "recoletasemibold";
+  color: #163a24;
+  margin-bottom: 26px;
+}
+footer .sign_up .wrapper article p {
+  font: 18px/150% "noto_sansregular";
+  color: #163a24;
+}
+footer .sign_up .wrapper article p {
+  font: 14px/150% "noto_sansregular";
+  color: #163a24;
+}
+footer .sign_up .wrapper article span {
+  color: #198c36;
+}
+footer .sign_up .wrapper article form {
+  max-width: 590px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 255px;
+}
+footer .sign_up .wrapper article form input {
+  width: 60%;
+  background-color: transparent;
+  border: none;
+  padding-left: 20px;
+}
+footer .sign_up .wrapper article form button {
+  background-color: #15762E;
+  padding: 15px 25px;
+  font: 16px "noto_sansregular";
+  color: #fbfaf7;
+  border-radius: 255px;
+  border: none;
+}
+footer .foot_links {
+  padding: 40px 0 24px 0;
+  background-color: #FFFFFF;
+}
+footer .foot_links .wrapper {
+  margin: auto;
+  max-width: 1180px;
+}
+footer .foot_links .social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer .foot_links .social h4 {
+  color: #163A24;
+  font: 24px/150% "recoletasemibold";
+  text-align: center;
+}
+footer .foot_links .social ul {
+  display: flex;
+}
+footer .foot_links .social ul li {
+  margin-left: 14px;
+  list-style: none;
+}
+footer .foot_links .politics {
+  border-top: 1px solid #f2efe6;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot_links .politics p {
+  font: 14px/150% "noto_sansregular";
+  color: #163a24;
+}
+footer .foot_links .politics ul {
+  display: flex;
+}
+footer .foot_links .politics ul li {
+  list-style: none;
+  margin-left: 14px;
+}
+footer .foot_links .politics ul li a {
+  font: 14px "noto_sansregular";
+  text-align: right;
+  color: #198c36;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */

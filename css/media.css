@@ -8,13 +8,13 @@
   body header .container .cd-3d-nav-container ul li {
     margin-left: 0px;
   }
-  body header .container .cd-3d-nav-container ul li a {
-    color: #163A24;
-  }
-  body header .container .cd-3d-nav-container ul li a:last-of-type a {
+  body header .container .cd-3d-nav-container ul li:last-of-type a {
     border-radius: 0;
     padding: 0;
     background-color: unset;
+  }
+  body header .container .cd-3d-nav-container ul li a {
+    color: #163A24;
   }
   main .main {
     background: #163A24;
@@ -145,6 +145,24 @@
     right: 0px;
     bottom: 0px;
   }
+}
+footer .sign_up {
+  padding: 60px 20px;
+}
+footer .sign_up .wrapper {
+  flex-wrap: wrap;
+  gap: 33px;
+}
+footer .foot_links {
+  padding: 40px 20px 24px;
+}
+footer .foot_links .social {
+  flex-wrap: wrap;
+  gap: 33px;
+}
+footer .foot_links .politics {
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 /*# sourceMappingURL=media.css.map */
